@@ -1,0 +1,52 @@
+{
+  "name": "城市3D",
+  "type": "terminal3D",
+  "subType": "basic",
+  "description": "",
+  "config": {
+    "chart": [
+      {
+        "type": "group",
+        "title": "主属性",
+        "editors": [
+          {
+            "field": "raderColor",
+            "title": "雷达颜色",
+            "type": "color",
+            "required": true,
+            "default": "rgba(155,255,100, 1)",
+            "style": {
+              "fieldWidth": 200
+            }
+          },
+          {
+            "field": "sheildColor",
+            "title": "选区颜色",
+            "type": "color",
+            "required": true,
+            "default": "rgba(255, 153, 153, 1)",
+            "style": {
+              "fieldWidth": 200
+            }
+          },
+          {
+            "field": "raderPosition",
+            "title": "雷达位置",
+            "type": "text",
+            "required": true,
+            "readOnly": false,
+            "default": "-3000, 0, 1300"
+          },
+          {
+            "field": "sheildPosition",
+            "title": "选区位置",
+            "type": "text",
+            "required": true,
+            "readOnly": false,
+            "default": "1, 0, 1"
+          }
+        ]
+      }
+    ]
+  }
+}
